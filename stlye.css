@@ -89,7 +89,7 @@ a {
     width: 60px;
     height: 5px;
     background-color: mediumpurple;
-    margin-left: 715px
+    margin-left: 730px;
 }
 .parallax-inner {
     display: table-cell;
@@ -106,3 +106,13 @@ a {
     font-size: 18px;
     list-style: none;
 }
+.image{
+    height:400px;
+        width:300px;
+}
+
+
+
+    
+    
+    
