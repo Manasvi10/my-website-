@@ -55,12 +55,12 @@ h3 {
 
 img {
     text-align: center;
-   margin-top: 60px;
+    margin-top: 60px;
 }
 
 #welcome {
     background: linear-gradient(#43a5db 0%, #b587cf 100%);
-     position: absolute;
+    position: absolute;
     overflow: hidden;
     height: 800px;
     color: #FFFFFF;
@@ -91,12 +91,14 @@ a {
     background-color: mediumpurple;
     margin-left: 730px;
 }
+
 .parallax-inner {
     display: table-cell;
     position: relative;
     text-align: center;
     vertical-align: middle;
 }
+
 .menu {
     z-index: 4;
     top: 10px;
@@ -106,18 +108,22 @@ a {
     font-size: 18px;
     list-style: none;
 }
-.image{
-    height:400px;
-        width:300px;
+
+.image {
+    height: 400px;
+    width: 300px;
+    transition: transform .2s
 }
-#Contact{
-  background-color: deepskyblue;
+
+#Contact {
+    background-color: deepskyblue;
 }
 
+.pic {
+    color: blue;
 
+}
 
-
-
-    
-    
-    
+.image:hover {
+    transform: scale(0.9)
+}
